@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Outfit;
+    src: url(../assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: YoungSerif;
+    src: url(../assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+body{
+    background-color:  hsl(30, 18%, 87%);
+}
+.container-grid{
+    /* border: 2px solid black; */
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 80px;
+    width: 75vw;
+    padding: 30px;
+
+}
+img{
+    width: 100%;
+    height: 70%;
+}
+
+h1{
+    font-family: YoungSerif;
+    font-size: 35px;
+}
+
+h2{
+    color: hsl(332, 51%, 32%);
+    font-family: YoungSerif;
+}
+
+h3{
+    color: hsl(14, 45%, 36%);
+    font-family: Outfit ;
+}
+p{
+    font-size: 16px;
+    font-family: Outfit;
+    letter-spacing: 2px;
+}
+ul{
+    gap: 20px;
+}
+
+.title{
+    /* border: 2px solid black; */
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.title>h1{
+    margin: 20px 0px 20px 0px;
+}
+.preparation{
+    padding: 20px;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 8px;
+}
+.preparation>ul>li{
+    margin: 12px;
+    margin-left: 22px;
+    font-family: Outfit;
+    padding-left: 10px;
+}
+li::marker{
+    color: hsl(332, 51%, 32%);
+    
+}
+
+.ingredients{
+    margin: 20px 0 20px 0;
+    /* border: 2px solid black; */
+}
+.ingredients>ul>li{
+    margin: 20px;
+    padding-left: 10px;
+}
+
+.instructions{
+    margin: 20px 0 20px 0;
+    /* border: 2px solid black; */
+}
+
+.instructions>ol{
+    margin: 30px;
+    font-family: Outfit;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    gap: 20px;
+}
+
+.instructions>ol>li{
+    letter-spacing: 2px;
+    padding-left: 10px;
+}
+
+.nutrition{
+    margin: 20px 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+table{
+    
+    
+    font-family: Outfit;
+    font-size: 20px;
+}
+th{
+    display: flex;
+    padding: 10px 0px 10px 30px;
+    /* border: 2px solid black; */
+    color: hsl(332, 51%, 32%);
+}
+.tabela{
+    padding: 10px 0px 10px 20px;
+    /* border: 2px solid black; */
+
+}
